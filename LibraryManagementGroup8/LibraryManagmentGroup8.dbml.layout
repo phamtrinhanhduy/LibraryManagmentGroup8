@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.375" name="LibraryManagmentGroup8">
+  <DataContextMoniker Name="/LibraryManagmentGroup8DataContext" />
+  <nestedChildShapes>
+    <classShape Id="13dce409-f1b5-4e45-8ab5-32eea07a1a7a" absoluteBounds="6.25, 1.125, 2, 3.1170068359375005">
+      <DataClassMoniker Name="/LibraryManagmentGroup8DataContext/LoanDetailTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="954f7eb7-3ad8-4ca2-a043-8a4492da4528" absoluteBounds="6.265, 1.585, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a1d42a76-e7b1-4ae5-ab9a-f97be4e3e188" absoluteBounds="3.5, 1.875, 2, 1.7708968098958329">
+      <DataClassMoniker Name="/LibraryManagmentGroup8DataContext/LoanTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="725369d5-3170-459b-819a-c48f660395b8" absoluteBounds="3.515, 2.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f57459c4-6dae-4611-8728-8f7ea463c24c" absoluteBounds="0.75, 3.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/LibraryManagmentGroup8DataContext/UserTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d263abf1-8bc1-4605-b084-5271d9884daa" absoluteBounds="0.765, 3.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.76044840494792); (6.25 : 2.76044840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/LibraryManagmentGroup8DataContext/LoanTbl/LoanTbl_LoanDetailTbl" />
+      <nodes>
+        <classShapeMoniker Id="a1d42a76-e7b1-4ae5-ab9a-f97be4e3e188" />
+        <classShapeMoniker Id="13dce409-f1b5-4e45-8ab5-32eea07a1a7a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.41669890494792); (3.65625 : 4.41669890494792); (3.65625 : 3.64589680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LibraryManagmentGroup8DataContext/UserTbl/UserTbl_LoanTbl" />
+      <nodes>
+        <classShapeMoniker Id="f57459c4-6dae-4611-8728-8f7ea463c24c" />
+        <classShapeMoniker Id="a1d42a76-e7b1-4ae5-ab9a-f97be4e3e188" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="dc7be611-f4be-45dd-8c5a-9f736ac40481" absoluteBounds="6.625, 6, 2, 3.1170068359375">
+      <DataClassMoniker Name="/LibraryManagmentGroup8DataContext/BookTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c9b3438e-dd8f-45e5-948b-1dc0f1e4ba1d" absoluteBounds="6.64, 6.4600000000000009, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.4375 : 6); (7.4375 : 4.2420068359375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LibraryManagmentGroup8DataContext/BookTbl/BookTbl_LoanDetailTbl" />
+      <nodes>
+        <classShapeMoniker Id="dc7be611-f4be-45dd-8c5a-9f736ac40481" />
+        <classShapeMoniker Id="13dce409-f1b5-4e45-8ab5-32eea07a1a7a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2df67b73-78fe-48ff-b1d3-6f112c79c5ff" absoluteBounds="3.875, 5.25, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/LibraryManagmentGroup8DataContext/UserDetailTbl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ad15338-53d5-415f-afeb-cc261e89aa81" absoluteBounds="3.8899999999999997, 5.71, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.86460145247396); (5.71875 : 4.86460145247396); (5.71875 : 5.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/LibraryManagmentGroup8DataContext/UserTbl/UserTbl_UserDetailTbl" />
+      <nodes>
+        <classShapeMoniker Id="f57459c4-6dae-4611-8728-8f7ea463c24c" />
+        <classShapeMoniker Id="2df67b73-78fe-48ff-b1d3-6f112c79c5ff" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
