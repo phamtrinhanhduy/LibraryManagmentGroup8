@@ -304,7 +304,7 @@
             this.UserInfo.Name = "UserInfo";
             this.UserInfo.Size = new System.Drawing.Size(100, 25);
             this.UserInfo.TabIndex = 66;
-            this.UserInfo.Text = "Thông Tin";
+            this.UserInfo.Text = "Loại";
             // 
             // Username
             // 
@@ -321,7 +321,7 @@
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(156, 25);
             this.Username.TabIndex = 65;
-            this.Username.Text = "Phạm Võ Phương Nam";
+            this.Username.Text = "Phạm Trịnh Anh Duy";
             this.Username.Click += new System.EventHandler(this.Username_Click);
             // 
             // pictureBox1

@@ -79,6 +79,8 @@
             this.panel17 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel10.SuspendLayout();
@@ -371,7 +373,7 @@
             this.UserInfo.Name = "UserInfo";
             this.UserInfo.Size = new System.Drawing.Size(100, 25);
             this.UserInfo.TabIndex = 66;
-            this.UserInfo.Text = "Thông Tin";
+            this.UserInfo.Text = "Loại";
             // 
             // Username
             // 
@@ -388,7 +390,7 @@
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(156, 25);
             this.Username.TabIndex = 65;
-            this.Username.Text = "Phạm Võ Phương Nam";
+            this.Username.Text = "Phạm Trịnh Anh Duy";
             this.Username.Click += new System.EventHandler(this.Username_Click);
             // 
             // pictureBox1
@@ -482,9 +484,9 @@
             this.TotalForfeitLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(1)))));
             this.TotalForfeitLbl.Location = new System.Drawing.Point(166, 44);
             this.TotalForfeitLbl.Name = "TotalForfeitLbl";
-            this.TotalForfeitLbl.Size = new System.Drawing.Size(95, 33);
+            this.TotalForfeitLbl.Size = new System.Drawing.Size(24, 33);
             this.TotalForfeitLbl.TabIndex = 136;
-            this.TotalForfeitLbl.Text = "10000";
+            this.TotalForfeitLbl.Text = "-";
             // 
             // panel3
             // 
@@ -504,9 +506,9 @@
             this.CountLoanLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(1)))));
             this.CountLoanLbl.Location = new System.Drawing.Point(200, 44);
             this.CountLoanLbl.Name = "CountLoanLbl";
-            this.CountLoanLbl.Size = new System.Drawing.Size(31, 33);
+            this.CountLoanLbl.Size = new System.Drawing.Size(24, 33);
             this.CountLoanLbl.TabIndex = 270;
-            this.CountLoanLbl.Text = "4";
+            this.CountLoanLbl.Text = "-";
             // 
             // panel4
             // 
@@ -558,9 +560,9 @@
             this.NOVLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(1)))));
             this.NOVLbl.Location = new System.Drawing.Point(200, 44);
             this.NOVLbl.Name = "NOVLbl";
-            this.NOVLbl.Size = new System.Drawing.Size(31, 33);
+            this.NOVLbl.Size = new System.Drawing.Size(24, 33);
             this.NOVLbl.TabIndex = 147;
-            this.NOVLbl.Text = "4";
+            this.NOVLbl.Text = "-";
             // 
             // panel7
             // 
@@ -612,9 +614,9 @@
             this.CountNewBLbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(1)))));
             this.CountNewBLbl.Location = new System.Drawing.Point(200, 44);
             this.CountNewBLbl.Name = "CountNewBLbl";
-            this.CountNewBLbl.Size = new System.Drawing.Size(31, 33);
+            this.CountNewBLbl.Size = new System.Drawing.Size(24, 33);
             this.CountNewBLbl.TabIndex = 271;
-            this.CountNewBLbl.Text = "4";
+            this.CountNewBLbl.Text = "-";
             // 
             // panel11
             // 
@@ -689,9 +691,9 @@
             this.CountNewULbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(217)))), ((int)(((byte)(1)))));
             this.CountNewULbl.Location = new System.Drawing.Point(200, 44);
             this.CountNewULbl.Name = "CountNewULbl";
-            this.CountNewULbl.Size = new System.Drawing.Size(31, 33);
+            this.CountNewULbl.Size = new System.Drawing.Size(24, 33);
             this.CountNewULbl.TabIndex = 270;
-            this.CountNewULbl.Text = "4";
+            this.CountNewULbl.Text = "-";
             // 
             // panel17
             // 
@@ -725,12 +727,36 @@
             this.panel18.Size = new System.Drawing.Size(100, 100);
             this.panel18.TabIndex = 145;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(60)))), ((int)(((byte)(100)))));
+            this.label6.Location = new System.Drawing.Point(681, 90);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(141, 21);
+            this.label6.TabIndex = 270;
+            this.label6.Text = "Xu hướng thể loại";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Candara", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(60)))), ((int)(((byte)(100)))));
+            this.label7.Location = new System.Drawing.Point(681, 384);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(236, 21);
+            this.label7.TabIndex = 271;
+            this.label7.Text = "Tổng số sách mượn theo tháng";
+            // 
             // Statistical
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.panel16);
             this.Controls.Add(this.chartMonth);
             this.Controls.Add(this.chartByPType);
@@ -832,5 +858,7 @@
         private System.Windows.Forms.Label NOVLbl;
         private System.Windows.Forms.Label CountNewBLbl;
         private System.Windows.Forms.Label CountNewULbl;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }
